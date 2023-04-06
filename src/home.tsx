@@ -50,7 +50,7 @@ const Home = () => {
                             <ImageBackground key={key} style={{height:height*0.2, width: height*0.2,marginRight:'1%'}} resizeMode={'cover'} source={require('../assets/movie4.png')}>
                                 <Text style={{marginHorizontal:'1%', fontWeight:'bold'}}>Movie {item}</Text>
                             </ImageBackground>
-                        )
+                        ) 
                     })
                     // <FlatList 
                     //    data={[1,2,3,4,5,6,7,8]}
